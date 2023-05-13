@@ -1,0 +1,140 @@
+@media screen and (min-width: 355px) and (max-width:510px) {
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .header {
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .hero-section {
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .hero-section2 {
+        min-width: 300px;
+        max-height: 500px;
+        text-align: center;
+    }
+
+    
+.hourly {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.hourly-text {
+    padding-right: px;
+    margin-left: 10px;
+    font-size: 18px;
+    opacity: .9;
+}
+
+.weekly-text {
+    padding-left: 40px;
+    font-size: 18px;
+    opacity: .9;
+}
+
+    .hourly-update {
+        display: flex;
+        padding:4px ;
+        margin-left: 10px;
+        margin: 50px 0;
+     }
+
+    .time-update {
+         height: 150px;
+         padding: 5px;
+        margin-right: 5px;
+         padding-top: 30px;
+        text-align: center;
+        border-radius: 30px; 
+        margin-bottom: 20px; 
+    }
+
+}
+
+@media screen and (min-width:511px) and (max-width:770px){
+    
+    .header {
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .input {
+        width: 400px;
+    }
+
+    .hero-section {
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    
+    .hero-section2 {
+        min-width: 300px;
+        max-height: 700px;
+        text-align: center;
+    }
+    .hourly-update {
+        display: flex;
+        padding:4px ;
+        margin-left: 10px;
+        margin: 50px 0;
+     }
+
+    .time-update {
+         padding: 10px;
+        margin-right: 25px;
+         padding-top: 30px;
+        text-align: center;
+        border-radius: 30px; 
+        margin-bottom: 20px; 
+    }
+}
+
+@media screen and (min-width:771px) and (max-width:992px){
+    
+
+    .input {
+        width: 400px;
+    }
+
+    
+
+    .hourly-update {
+        display: flex;
+        padding:4px ;
+        margin-left: 10px;
+        margin: 50px 0;
+     }
+
+    .time-update {
+         padding: 10px;
+        margin-right: 50px;
+         padding-top: 30px;
+        text-align: center;
+        border-radius: 30px; 
+        margin-bottom: 20px; 
+    }
+}
