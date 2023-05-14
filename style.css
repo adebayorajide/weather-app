@@ -11,7 +11,7 @@ body {
     font-family: sans-serif;
     height: auto;
     /* background-color: #14274a; */
-    background-image: url("./images/weather-backg.avif");
+    background-image: url("./weather-backg.avif");
     color: white;
     justify-content: center;
     align-items: center;
