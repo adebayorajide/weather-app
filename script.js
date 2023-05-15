@@ -24,19 +24,19 @@ const getResult = () => {
     let d = new Date();
     let time = d.getHours;
     if(d.getHours = 10) {
-        hourlyEl[0].innerHTML = `<h3>${d.getHours}</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
+        hourlyEl[0].innerHTML = `<h3>Now</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
         hourlyEl.style.backgroundColor = "purple";
     } else if (d.getHours = 11) {
-        hourlyEl[1].innerHTML = `<h3>${d.getHours}</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
+        hourlyEl[1].innerHTML = `<h3>Now</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
         hourlyEl.style.backgroundColor = "purple";
     } else if (d.getHours = 12) {
-        hourlyEl[1].innerHTML = `<h3>${d.getHours}</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
+        hourlyEl[2].innerHTML = `<h3>Now</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
         hourlyEl.style.backgroundColor = "purple";
     } else if (d.getHours = 14) {
-        hourlyEl[1].innerHTML = `<h3>${d.getHours}</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
+        hourlyEl[3].innerHTML = `<h3>Now</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
         hourlyEl.style.backgroundColor = "purple";
     } else if (d.getHours = 15) {
-        hourlyEl[1].innerHTML = `<h3>${d.getHours}</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
+        hourlyEl[4].innerHTML = `<h3>Now</h3> <br> <img src=" " /> <br> <h3>${data.main.temp}<span>&#8451;`;
         hourlyEl.style.backgroundColor = "purple";
     }
 }
