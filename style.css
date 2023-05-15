@@ -81,6 +81,7 @@ body {
     flex-wrap: wrap;
     padding-top: 50px ;
     height: 250px;
+    text-align: center;
 }
 
 .hero-section2 {
@@ -120,7 +121,7 @@ body {
 .hourly-update {
     display: flex;
     flex-wrap: wrap;
-    padding:40px ;
+    padding:20px ;
     margin-left: 60px;
  }
 
