@@ -7,7 +7,7 @@ const stateEl = document.getElementById('state');
 const hourlyEl = document.querySelectorAll('.time-update')
 
 const getWeatherData = (city) => {
-	fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a5480b84544e71353e6df877f882a917`)
+	fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a5480b84544e71353e6df877f882a917&units=metric`)
     .then(data => {
         return data.json();
     }).then(showWeatherData);
